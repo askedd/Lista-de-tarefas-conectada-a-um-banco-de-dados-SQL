@@ -64,13 +64,13 @@ def marcar_concluida():
 conexao = conectar_banco()
 
 janela = tk.Tk()
-janela.title("Gerenciador de Tarefas 🗂️")
+janela.title("Gerenciador de Tarefas")
 janela.geometry("400x500")
 janela.configure(bg="#1e1e1e")
 
 titulo = tk.Label(
     janela,
-    text="📋 Minhas Tarefas",
+    text="Minhas Tarefas",
     font=("Arial", 18, "bold"),
     bg="#000000",
     fg="#ffffff"
